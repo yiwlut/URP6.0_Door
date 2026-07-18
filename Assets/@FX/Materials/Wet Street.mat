@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wet Street
+  m_Shader: {fileID: 4800000, guid: dbf33fe6838a35c40ad4504b8d70a1a4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _PuddleMask:
+        m_Texture: {fileID: 2800000, guid: c202c99af2e8dab419444b00a640af27, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainPuddleNormal:
+        m_Texture: {fileID: 2800000, guid: 3c89e057f8de31f4f983716e6560c618, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _RainRippleNormal:
+        m_Texture: {fileID: 2800000, guid: bfb1ee5715236e545b0096f93ffb4029, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoadAlbedo:
+        m_Texture: {fileID: 2800000, guid: 85b50ce246cd4af4a863f55ad608c52d, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _RoadNormal:
+        m_Texture: {fileID: 2800000, guid: e362da8784c90bc4db59cc0cf8d847a4, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: 969015589f229cd47b2234a754c152af, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Metallic: 0.12
+    - _PuddleContrast: 0.32
+    - _PuddleTiling: 0.18
+    - _RainNormalStrength: 0.58
+    - _RippleScale: 1.6
+    - _RippleSpeed: 20
+    - _RippleStrength: 0.085
+    - _RoadNormalStrength: 0.72
+    - _Smoothness: 0.96
+    - _SurfaceTexScale: 0.16
+    - _WaterFlow: 0.035
+    - _WaterTiling: 1.35
+    - _Wetness: 0.96
+    m_Colors:
+    - _BaseColor: {r: 0.085, g: 0.1, b: 0.125, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectionTint: {r: 0.06, g: 0.09, b: 0.14, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

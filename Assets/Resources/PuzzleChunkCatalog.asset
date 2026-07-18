@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d678fc6c01652468705368b063f138, type: 3}
+  m_Name: BluesWithYouChunkCatalog
+  m_EditorClassIdentifier: 
+  placements:
+  - prefab: {fileID: 5892917145464605402, guid: 35a02f9f2be029542baa279f1cdce052, type: 3}
+    position: {x: 0, y: 0, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 260799467186412611, guid: c42b130cce49a484f92ec7aaaaa16312, type: 3}
+    position: {x: 0, y: 0, z: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6120793967277559585, guid: a3baf0922aa897e4f8a726010bc1ee96, type: 3}
+    position: {x: 0, y: 0, z: 10}
+    rotation: {x: 0, y: 0, z: 0}
