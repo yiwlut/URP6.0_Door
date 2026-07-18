@@ -16,6 +16,7 @@ namespace DoorPuzzle.Editor
         private const string ScenePath = SceneFolder + "/Scene-TestLevel.unity";
         private const string TestScenePath = SceneFolder + "/Scene-TestLevel.unity";
         private const string RainAudioPath = "Assets/@SE/bgm_RainyAtmo.wav";
+        private const string HeadsetPromptSpritePath = "Assets/@SE/Headset.png";
         private const string WetStreetMaterialPath = "Assets/@FX/Materials/Wet Street.mat";
         private const string RainyAlleyAtmospherePath = "Assets/@Prefabs/Environment/Rainy Alley Atmosphere.prefab";
         private const string LightingRigPath = "Assets/@Prefabs/Level/Lighting Rig.prefab";
@@ -199,6 +200,7 @@ namespace DoorPuzzle.Editor
             settings.FindProperty("rainyAlleyAtmospherePrefab").objectReferenceValue = AssetDatabase.LoadAssetAtPath<GameObject>(RainyAlleyAtmospherePath);
             settings.FindProperty("lightingRigPrefab").objectReferenceValue = AssetDatabase.LoadAssetAtPath<GameObject>(LightingRigPath);
             settings.FindProperty("titleStreetPrefab").objectReferenceValue = AssetDatabase.LoadAssetAtPath<GameObject>(TitleStreetPath);
+            settings.FindProperty("headsetPromptSprite").objectReferenceValue = AssetDatabase.LoadAssetAtPath<Sprite>(HeadsetPromptSpritePath);
             settings.FindProperty("ambienceVolume").floatValue = 0.52f;
             settings.FindProperty("headsetPromptFadeDuration").floatValue = 0.75f;
             settings.FindProperty("headsetPromptHoldDuration").floatValue = 1.8f;
