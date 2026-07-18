@@ -104,3 +104,16 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Private or redistribution-unverified source assets
+# Keep these files locally for development, but do not publish their raw sources.
+/Assets/@SE/*.wav
+/Assets/@SE/*.wav.meta
+/Assets/Resources/Audio/*.wav
+/Assets/Resources/Audio/*.wav.meta
+/Assets/@Animations/Player01/*.fbx
+/Assets/@Animations/Player01/*.fbx.meta
+/Assets/@models/Player01/Walking.fbx
+/Assets/@models/Player01/Walking.fbx.meta
+/Assets/@models/VendingMachine.fbx
+/Assets/@models/VendingMachine.fbx.meta
